@@ -69,9 +69,17 @@ export default function Home() {
 
           <div className="flex w-full shrink-0 flex-row items-center mt-2 justify-between px-2 sm:px-4">
           <p className={`p-2 text-xs sm:text-sm font-bold ${ibmPlexMono.className}`}>portified // folio // tanzid</p>
+          <div className="flex flex-row items-center justify-center gap-2">
+
           <div className="m-1 flex shrink-0 flex-row items-center justify-center border-l-2 border-[#7A1F3D] bg-[#BBDF32] p-1 font-bold cursor-pointer hover:scale-105">
           <a href='mailto:hellotanzid@gmail.com' className={`${ibmPlexMono.className} pl-3 text-sm text-[#7A1F3D]`}>say hi</a>
           <div className="h-2 w-2 animate-pulse  bg-[#7A1F3D] m-3"></div>
+          </div>
+          <div>
+            <Link href='https://www.instagram.com/tanzid_akashe/' target="_blank" className="flex items-center justify-center">
+              <img  src="/instagram.svg"  className="bg-[#BBDF32]  stroke-[#7A1F3D] border-l-2 border-[#7A1F3D] p-2 " alt="" />
+            </Link>
+          </div>
           </div>
           </div>
 
@@ -93,7 +101,6 @@ export default function Home() {
               </p>
               <a href='https://byshunno.vercel.app' className={`${bioRhyme.className} my-1 p-1 text-xs transition-colors duration-300 hover:bg-[#BBDF32] sm:text-sm`}>1. House of shunno/o/oshim</a>
               <Link href='/cliapp' className={`${bioRhyme.className} my-1 p-1 text-xs transition-colors duration-300 hover:bg-[#BBDF32] sm:text-sm`}>2. [ The Project we will be working on ! ]</Link>
-              
             </div>
            </div>
 

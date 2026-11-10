@@ -78,13 +78,13 @@ export default function Home() {
           <div className="heroText flex min-h-0 w-full flex-1 flex-col items-center justify-center gap-2 px-4">
            <div className="header flex min-h-0 flex-col items-center justify-center">
             <img src='/chopa3.png' alt="" className='chopa h-auto  w-[35vw] md:w-[14vw] rounded-full -mt-20 duration-300'/>
-            <h1 className={`header -mt-2 text-center text-[15vw] md:text-[11rem] font-bold italic  ${bioRhyme.className}`}>hello there</h1>
+            <h1 className={`header -mt-2 text-center text-[15vw] md:text-[11rem] font-bold italic  ${bioRhyme.className}`}>hello there </h1>
            </div>
 
            <div className="flex w-full max-w-5xl flex-col items-center justify-center gap-3 sm:flex-row sm:items-start sm:gap-8">
             
-            <div className="projects w-full max-w-md text-left sm:w-1/2">
-              <p className={`${bioRhyme.className} text-xs overflow-hidden h-full leading-relaxed sm:text-sm`}>This is Tanzid, a really friendly neighborhood BBA guy and a full stack Web Dev. with a knack for code, design, and everything in between. Also Good in art and dissecting creative fields and spectrum. I can help you with your niche to standout in this saturation.</p>
+            <div className="projects w-[90%] max-w-md text-left sm:w-1/2">
+              <p className={`${bioRhyme.className} text-xs overflow-hidden h-full text-justify sm:text-sm`}>This is Tanzid, a really friendly neighborhood BBA guy and a full stack Web Dev. with a knack for code, design, and everything in between. Also Good in art and dissecting creative fields and spectrum. I can help you with your niche to standout in this saturation.</p>
             </div>
             
             <div className="works mt-1 flex w-full flex-col justify-end border-0 p-2 sm:mt-0 sm:w-1/2 sm:p-3">

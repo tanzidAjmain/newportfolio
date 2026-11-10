@@ -65,50 +65,50 @@ export default function Home() {
   }, []);
 
   return (
-        <div ref={root} className="h-screen flex flex-col w-screen  justify-between items-center bg-[#D5D5D8] text-[#7A1F3D] ">
+        <div ref={root} className="h-dvh w-full overflow-hidden flex flex-col justify-between items-center bg-[#D5D5D8] text-[#7A1F3D]">
 
-          <div className="flex flex-row items-center justify-between w-screen">
-          <p className={`text-sm p-3 font-bold ${ibmPlexMono.className} `}>portified // folio // tanzid</p>
-          <div className={` font-bold  flex flex-row items-center cursor-pointer hover:scale-105 border-[#7A1F3D] bg-[#BBDF32] border-l-2 m-2 p-1  justify-center`}>
-          <a href='mailto:hellotanzid@gmail.com' className={`${ibmPlexMono.className}  text-[#7A1F3D]  pl-3`}>say hi</a>
+          <div className="flex w-full shrink-0 flex-row items-center justify-between px-2 sm:px-4">
+          <p className={`p-2 text-xs sm:text-sm font-bold ${ibmPlexMono.className}`}>portified // folio // tanzid</p>
+          <div className="m-1 flex shrink-0 flex-row items-center justify-center border-l-2 border-[#7A1F3D] bg-[#BBDF32] p-1 font-bold cursor-pointer hover:scale-105">
+          <a href='mailto:hellotanzid@gmail.com' className={`${ibmPlexMono.className} pl-3 text-sm text-[#7A1F3D]`}>say hi</a>
           <div className="h-2 w-2 animate-pulse  bg-[#7A1F3D] m-3"></div>
           </div>
           </div>
 
-          <div className="heroText   flex flex-col items-center justify-center w-full h-full ">
-           <div className="flex header flex-col items-center justify-center">
-            <img src='/chopa3.png'   className='chopa rounded-full  duration-300'/>
-            <h1 className={`header italic text-[15vw] md:text-[10rem] md:-mt-25 font-bold ${bioRhyme.className} `}>hello there </h1>
+          <div className="heroText flex min-h-0 w-full flex-1 flex-col items-center justify-center gap-2 px-4">
+           <div className="header flex min-h-0 flex-col items-center justify-center">
+            <img src='/chopa3.png' alt="" className='chopa h-auto w-[clamp(5rem,16vh,12.5rem)] rounded-full duration-300'/>
+            <h1 className={`header -mt-2 text-center text-[clamp(7rem,10vw,9rem)] font-bold italic leading-none ${bioRhyme.className}`}>hello there</h1>
            </div>
 
-           <div className="flex flex-col gap-3 md:flex-row items-center justify-center w-screen ">
+           <div className="flex w-full max-w-5xl flex-col items-center justify-center gap-3 sm:flex-row sm:items-start sm:gap-8">
             
-            <div className=" w-90 projects  md:w-1/3 text-left ">
-              <p className={` ${bioRhyme.className} text-sm translate-y-full `}>This is Tanzid, a really friendly neighborhood BBA guy and a full stack Web Dev. with a knack for code, design, and everything in between. Also Good in art and dissecting creative fields and spectrum. I can help you with your niche to standout in this saturation.</p>
+            <div className="projects w-full max-w-md text-left sm:w-1/2">
+              <p className={`${bioRhyme.className} text-xs leading-relaxed sm:text-sm`}>This is Tanzid, a really friendly neighborhood BBA guy and a full stack Web Dev. with a knack for code, design, and everything in between. Also Good in art and dissecting creative fields and spectrum. I can help you with your niche to standout in this saturation.</p>
             </div>
             
-            <div className=" works flex flex-col h-full justify-end border-0 mt-2  border-[#7A1F3D] p-5">
-              <p className={`${ibmPlexMono.className} bg-[#BBDF32] cursor-pointer p-2 text-sm md:text-lg font-bold mt-10 md:mt-0`}>
+            <div className="works mt-1 flex w-full flex-col justify-end border-0 p-2 sm:mt-0 sm:w-1/2 sm:p-3">
+              <p className={`${ibmPlexMono.className} mt-0 cursor-pointer bg-[#BBDF32] p-2 text-xs font-bold sm:text-sm`}>
                 Work List worth showing:
               </p>
-              <a href='https://byshunno.vercel.app' className={`${bioRhyme.className} hover:bg-[#BBDF32] transition-colors  p-1 my-2 duration-300 text-sm md:text-m `}>1. House of shunno/o/oshim</a>
-              <Link href='/cliapp' className={`${bioRhyme.className}  hover:bg-[#BBDF32] transition-colors duration-300 p-1 my-2  text-sm md:text-m  `}>2. [ The Project we will be working on ! ]</Link>
+              <a href='https://byshunno.vercel.app' className={`${bioRhyme.className} my-1 p-1 text-xs transition-colors duration-300 hover:bg-[#BBDF32] sm:text-sm`}>1. House of shunno/o/oshim</a>
+              <Link href='/cliapp' className={`${bioRhyme.className} my-1 p-1 text-xs transition-colors duration-300 hover:bg-[#BBDF32] sm:text-sm`}>2. [ The Project we will be working on ! ]</Link>
               
             </div>
            </div>
 
           </div>
 
-          <div className="flex flex-row items-center justify-between w-screen">
-            <p className={`${bioRhyme.className} font-bold`}>bleh </p>
-            <p className={`${bioRhyme.className} font-bold`}>bleh </p>
-            <p className={`${bioRhyme.className} font-bold`}>bleh </p>
-            <p className={`${bioRhyme.className} font-bold`}>bleh </p>
-            <p className={`${bioRhyme.className} font-bold`}>bleh </p>
-            <p className={`${bioRhyme.className} font-bold`}>bleh </p>
-            <p className={`${bioRhyme.className} font-bold`}>bleh </p>
-            <p className={`${bioRhyme.className} font-bold`}>bleh </p>
-            <p className={`${bioRhyme.className} font-bold`}>bleh </p>
+          <div className="flex w-full shrink-0 flex-row flex-wrap items-center justify-between px-2 text-xs sm:px-4 sm:text-sm">
+            <p className={`${bioRhyme.className} font-bold`}>bleh</p>
+            <p className={`${bioRhyme.className} font-bold`}>bleh</p>
+            <p className={`${bioRhyme.className} font-bold`}>bleh</p>
+            <p className={`${bioRhyme.className} font-bold`}>bleh</p>
+            <p className={`${bioRhyme.className} font-bold`}>bleh</p>
+            <p className={`${bioRhyme.className} font-bold`}>bleh</p>
+            <p className={`${bioRhyme.className} font-bold`}>bleh</p>
+            <p className={`${bioRhyme.className} font-bold`}>bleh</p>
+            <p className={`${bioRhyme.className} font-bold`}>bleh</p>
           </div>
         </div>
   );

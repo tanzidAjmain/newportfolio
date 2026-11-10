@@ -2,7 +2,7 @@
 
 .chopa{
   height: auto;
-  width: 200px;
+  width: 180px;
   animation: chopa 3s ease-in-out 4s normal forwards;
   animation-iteration-count: infinite;
 }

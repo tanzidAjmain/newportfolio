@@ -43,7 +43,7 @@ export default function Home() {
     tl.from(splitText.lines, {
       delay: 0.5,
       opacity: 0,
-      y: 20,
+      y: -10,
       duration: 1,
       stagger: 0.25,
       ease: "power1.out",
@@ -77,14 +77,14 @@ export default function Home() {
 
           <div className="heroText flex min-h-0 w-full flex-1 flex-col items-center justify-center gap-2 px-4">
            <div className="header flex min-h-0 flex-col items-center justify-center">
-            <img src='/chopa3.png' alt="" className='chopa h-auto w-[clamp(5rem,16vh,12.5rem)] rounded-full duration-300'/>
-            <h1 className={`header -mt-2 text-center text-[clamp(7rem,10vw,9rem)] font-bold italic leading-none ${bioRhyme.className}`}>hello there</h1>
+            <img src='/chopa3.png' alt="" className='chopa h-auto  w-[35vw] md:w-[14vw] rounded-full -mt-20 duration-300'/>
+            <h1 className={`header -mt-2 text-center text-[15vw] md:text-[11rem] font-bold italic  ${bioRhyme.className}`}>hello there</h1>
            </div>
 
            <div className="flex w-full max-w-5xl flex-col items-center justify-center gap-3 sm:flex-row sm:items-start sm:gap-8">
             
             <div className="projects w-full max-w-md text-left sm:w-1/2">
-              <p className={`${bioRhyme.className} text-xs leading-relaxed sm:text-sm`}>This is Tanzid, a really friendly neighborhood BBA guy and a full stack Web Dev. with a knack for code, design, and everything in between. Also Good in art and dissecting creative fields and spectrum. I can help you with your niche to standout in this saturation.</p>
+              <p className={`${bioRhyme.className} text-xs overflow-hidden h-full leading-relaxed sm:text-sm`}>This is Tanzid, a really friendly neighborhood BBA guy and a full stack Web Dev. with a knack for code, design, and everything in between. Also Good in art and dissecting creative fields and spectrum. I can help you with your niche to standout in this saturation.</p>
             </div>
             
             <div className="works mt-1 flex w-full flex-col justify-end border-0 p-2 sm:mt-0 sm:w-1/2 sm:p-3">
@@ -99,7 +99,7 @@ export default function Home() {
 
           </div>
 
-          <div className="flex w-full shrink-0 flex-row flex-wrap items-center justify-between px-2 text-xs sm:px-4 sm:text-sm">
+          <div className="flex w-full  flex-row flex-wrap items-center justify-between text-xs sm:px-4 sm:text-sm">
             <p className={`${bioRhyme.className} font-bold`}>bleh</p>
             <p className={`${bioRhyme.className} font-bold`}>bleh</p>
             <p className={`${bioRhyme.className} font-bold`}>bleh</p>

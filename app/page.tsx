@@ -87,7 +87,7 @@ export default function Home() {
               <p className={` ${bioRhyme.className} text-sm translate-y-full `}>This is Tanzid, a really friendly neighborhood BBA guy and a full stack Web Dev. with a knack for code, design, and everything in between. Also Good in art and dissecting creative fields and spectrum. I can help you with your niche to standout in this saturation.</p>
             </div>
             
-            <div className=" works flex flex-col h-full justify-end border-0 mt-5  border-[#7A1F3D] p-5">
+            <div className=" works flex flex-col h-full justify-end border-0 mt-2  border-[#7A1F3D] p-5">
               <p className={`${ibmPlexMono.className} bg-[#BBDF32] cursor-pointer p-2 text-sm md:text-lg font-bold mt-10 md:mt-0`}>
                 Work List worth showing:
               </p>

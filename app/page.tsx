@@ -65,9 +65,9 @@ export default function Home() {
   }, []);
 
   return (
-        <div ref={root} className="h-screen  w-full overflow-hidden flex flex-col justify-between items-center bg-[#D5D5D8] text-[#7A1F3D]">
+        <div ref={root} className="h-dvh w-full overflow-hidden flex flex-col justify-around items-center bg-[#D5D5D8] text-[#7A1F3D]">
 
-          <div className="flex w-full shrink-0 flex-row items-center justify-between px-2 sm:px-4">
+          <div className="flex w-full shrink-0 flex-row items-center mt-2 justify-between px-2 sm:px-4">
           <p className={`p-2 text-xs sm:text-sm font-bold ${ibmPlexMono.className}`}>portified // folio // tanzid</p>
           <div className="m-1 flex shrink-0 flex-row items-center justify-center border-l-2 border-[#7A1F3D] bg-[#BBDF32] p-1 font-bold cursor-pointer hover:scale-105">
           <a href='mailto:hellotanzid@gmail.com' className={`${ibmPlexMono.className} pl-3 text-sm text-[#7A1F3D]`}>say hi</a>
